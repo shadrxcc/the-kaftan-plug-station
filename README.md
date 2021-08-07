@@ -7,7 +7,7 @@
 * Bootstrap
 
 ## Live Demo
-[Live Demo Link]
+[Live Demo Link](https://shadrxcc.github.io/the-kaftan-plug-station/)
 
 ## Author
 
