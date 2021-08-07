@@ -113,7 +113,7 @@
         </div>
     </section>
 
-    <!--explore section-->
+    <!--explore section (layout: css grids)-->
     <section class="bg-light text-center">
         <h4 class="text-success pt-4">EXPLORE</h4>
          <p>Our Services</p>
@@ -155,6 +155,42 @@
             </div>
           </div>
      </div>
+    </section>
+
+
+    <!--contact section (layout: bootstrap grids & flexbox)-->
+    <section class="p-5">
+        <div class="container-fluid mt-5">
+            <div class="row">
+            <div class="col-md py-3 pt-md-5">
+                <div class="d-flex text-success">
+                <i class="fas fa-paper-plane pt-1"></i>
+                <h5 class="fs-6 ps-1 pt-1">ADDRESS</h5> 
+                </div>
+               <p>18 Ayato Street, Iwaya, Lagos.</p>
+
+               <div class="d-flex text-success">
+                <i class="bi bi-envelope-fill pt-1"></i>
+                <h5 class="pt-1 ps-1 fs-6">EMAIL</h5> 
+                </div>
+                <p>akaadesm@gmail.com</p>
+
+                <div class="d-flex text-success">
+                    <i class="fas fa-paper-plane pt-1"></i>
+                    <h5 class="fs-6 ps-1 pt-1">TELEPHONE</h5> 
+                    </div>
+                   <p>+2348155826377</p>
+            </div>
+
+            <div class="col-md py-3">
+                <form action="form">
+                    <input type="text" class="border-top-0 border-end-0 border-start-0 border-bottom py-3 w-100 mb-3" name="name" id="name" placeholder="NAME">
+                    <input type="email" name="email" id="email" placeholder="EMAIL" class="border-top-0 py-3 border-end-0 border-start-0 border-bottom w-100 mb-3">
+                    <textarea name="message" id="message" cols="30" placeholder="MESSAGE" rows="3" class="border-top-0 py-3 border-end-0 border-start-0 border-bottom w-100 mb-3"></textarea>
+                    <button type="button" class="btn-success border-0 rounded p-1">SEND</button>
+                </form>
+            </div>
+        </div></div>
     </section>
 
 </body>
