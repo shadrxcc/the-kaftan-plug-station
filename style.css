@@ -42,6 +42,10 @@ header {
   .g-checkout {
     grid-template-columns: auto auto;
   }
+
+  .gridx {
+    grid-template-columns: auto auto;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -54,6 +58,10 @@ header {
   }
 
   .grid-container {
+    grid-template-columns: auto auto;
+  }
+
+  .gridx {
     grid-template-columns: auto auto;
   }
 }
