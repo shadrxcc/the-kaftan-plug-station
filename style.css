@@ -26,8 +26,34 @@ header {
   flex-direction: column;
 }
 
+.grid-container {
+  display: grid;
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .flex-container {
     flex-direction: row;
+  }
+
+  .grid-container {
+    grid-template-columns: auto auto;
+  }
+
+  .g-checkout {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .g-checkout {
+    grid-template-columns: auto auto auto;
+  }
+
+  .flex-container {
+    flex-direction: row;
+  }
+
+  .grid-container {
+    grid-template-columns: auto auto;
   }
 }
