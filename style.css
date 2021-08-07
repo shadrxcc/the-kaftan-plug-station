@@ -20,3 +20,8 @@ header {
 .made {
   font-family: 'Open Sans', sans-serif;
 }
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
