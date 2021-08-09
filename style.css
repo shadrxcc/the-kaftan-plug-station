@@ -11,10 +11,10 @@ header {
   background-size: cover;
   max-height: 100%;
   height: 400px;
+  bottom: 50px;
 }
 
 .dropdown {
-  position: relative;
   display: inline-block;
 }
 
@@ -33,8 +33,38 @@ header {
   display: block;
 }
 
+.over {
+  position: relative;
+  top: 100px;
+}
+
+.special {
+  padding-top: 100px;
+}
+
+.products {
+  bottom: 50px;
+  padding-bottom: 50px;
+}
+
 .card {
   width: 18rem;
+}
+
+.footp {
+  position: relative;
+}
+
+.dark {
+  height: 15px;
+  position: relative;
+  bottom: 25px;
+}
+
+.service {
+  bottom: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .dropdown-content a:hover {
@@ -48,6 +78,23 @@ header {
 .gradient {
   height: 5px;
   background: linear-gradient(to right, red, yellow);
+  position: relative;
+  bottom: 50px;
+}
+
+.facts {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  bottom: 50px;
+}
+
+.about {
+  margin-bottom: 50px;
+}
+
+.check {
+  padding-bottom: 15px;
 }
 
 .designs {
