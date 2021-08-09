@@ -23,7 +23,6 @@ header {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
@@ -39,7 +38,7 @@ header {
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1
+  background-color: #f1f1f1;
 }
 
 .dropdown:hover .dropdown-content {
@@ -48,7 +47,7 @@ header {
 
 .gradient {
   height: 5px;
-  background: linear-gradient(to right, red , yellow); /* For browsers that do not support gradients */
+  background: linear-gradient(to right, red, yellow);
 }
 
 .designs {
