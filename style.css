@@ -13,8 +13,43 @@ header {
   height: 400px;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.gradient {
+  height: 5px;
+  background: linear-gradient(to right, red , yellow); /* For browsers that do not support gradients */
+}
+
 .designs {
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Cedarville Cursive', cursive;
+  font-weight: bold;
 }
 
 .made {
@@ -28,6 +63,14 @@ header {
 
 .grid-container {
   display: grid;
+}
+
+.green {
+  border: 7px solid rgb(2, 129, 70);
+}
+
+.edge {
+  border-radius: 97px;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -58,7 +101,7 @@ header {
   }
 
   .grid-container {
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto auto;
   }
 
   .gridx {
