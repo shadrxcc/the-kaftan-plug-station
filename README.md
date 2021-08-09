@@ -1,5 +1,5 @@
 # The-Kaftan-Plug-Station:
-> HTML & CSS Capstone Project
+> HTML & CSS Capstone Project (The Kaftan Plug Station): A personalized online clothing page built based on the project specifications and design from a tea station website.
 
 ## Built With 
 * HTML 
